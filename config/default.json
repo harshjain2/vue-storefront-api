@@ -22,7 +22,7 @@
     "excludeDisabledProducts": false
   },
   "elasticsearch": {
-    "host": "search-squarefeet-xxx.ap-south-1.es.amazonaws.com",
+    "host": "search-squarefeet-5qc2h3c2yzdbcxfpazv3p6b4ba.ap-south-1.es.amazonaws.com",
     "index": "vue_storefront_catalog",
     "port": 443,
     "protocol": "https",

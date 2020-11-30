@@ -18,11 +18,11 @@
         "visibility": {"type": "integer"},
         "created_at": { 
             "type": "date",           
-            "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis||text"
+            "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd'T'HH:mm:ss.SSSzz||yyyy-MM-dd||epoch_millis"
          },
         "updated_at": {   
             "type": "date",           
-            "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis||text"
+            "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd'T'HH:mm:ss.SSSzz||yyyy-MM-dd||epoch_millis"
          },
         "special_from_date": {
             "type": "date",           
@@ -69,7 +69,7 @@
                  }
              }
          },
-        "category_ids": {"type": "long"},
+        "category_ids": {"type": "text"},
         "eco_collection": {"type": "integer"},
         "eco_collection_options": {"type": "integer"},
         "erin_recommends": {"type": "integer"},
@@ -77,6 +77,7 @@
         "gender": {"type": "integer"},
         "material": {"type": "integer"},
         "category_gear": {"type": "integer"},
+        "block_number" : {"type": "keyword"},
         "attributes_metadata": {
              "properties": {
                  "id": {"type": "integer"},

@@ -1,10 +1,10 @@
 {
     "properties": {
         "id": {
-            "type": "long"
+            "type": "text"
         },
         "attribute_id": {
-            "type": "long"
+            "type": "text"
         },
         "options": {
             "properties": {
