@@ -78,6 +78,7 @@
         "material": {"type": "integer"},
         "category_gear": {"type": "integer"},
         "block_number" : {"type": "keyword"},
+        "user_id" : {"type": "keyword"},
         "attributes_metadata": {
              "properties": {
                  "id": {"type": "integer"},
