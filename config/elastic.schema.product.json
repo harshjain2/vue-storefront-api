@@ -78,6 +78,8 @@
         "material": {"type": "integer"},
         "category_gear": {"type": "integer"},
         "block_number" : {"type": "keyword"},
+        "stock_location" : {"type": "keyword"},
+        "country_of_origin" : {"type": "keyword"},
         "user_id" : {"type": "keyword"},
         "attributes_metadata": {
              "properties": {
