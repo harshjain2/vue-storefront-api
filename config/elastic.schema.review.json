@@ -1,0 +1,13 @@
+{
+    "properties": {
+        "id": {"type": "text"},
+        "product_id": {"type": "keyword"},
+        "title": {"type": "text"},
+        "detail": {"type": "text"},
+        "nickname": {"type": "text"},
+        "customer_id": {"type": "text"},
+        "review_entity": {"type": "text"},
+        "review_status": {"type": "integer"}
+    }
+ }
+ 
