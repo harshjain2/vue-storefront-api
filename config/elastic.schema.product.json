@@ -79,6 +79,8 @@
         "category_gear": {"type": "integer"},
         "block_number" : {"type": "keyword"},
         "stock_location" : {"type": "keyword"},
+        "country_of_origin_string" : {"type": "keyword"},
+        "color_variation" : {"type": "keyword"},
         "country_of_origin" : {"type": "keyword"},
         "user_id" : {"type": "keyword"},
         "attributes_metadata": {
